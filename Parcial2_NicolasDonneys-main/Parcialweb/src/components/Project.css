@@ -1,0 +1,28 @@
+/* Estilos de proyectos */
+.project {
+    background-color: #222; /* Fondo gris oscuro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+    margin: 20px 0; /* Espacio superior e inferior */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+  }
+  
+  .project h3 {
+    color: #00bfff; /* Azul cielo para el título de proyectos */
+    margin-bottom: 10px; /* Espacio debajo del título */
+  }
+  
+  .project ul {
+    list-style-type: none; /* Elimina los puntos de lista */
+    padding: 0;
+  }
+  
+  .project ul li {
+    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+    transition: color 0.3s ease; /* Transición suave */
+  }
+  
+  .project ul li:hover {
+    color: #00bfff; /* Cambia el color a azul cielo cuando pasas el cursor */
+  }
+  

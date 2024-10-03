@@ -1,0 +1,145 @@
+/* General styles */
+body {
+  background-color: #0e0e0e; /* Fondo oscuro */
+  color: #f0f0f0; /* Texto claro */
+  font-family: 'Arial', sans-serif;
+  margin: 0; /* Elimina márgenes por defecto */
+  padding: 0;
+  align-items: center; 
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #00bfff; 
+  margin: 10px 0; 
+}
+
+.container {
+  max-width: 1000px; /* Limita el ancho máximo */
+  margin: 0 auto; /* Centra la página horizontalmente */
+  padding: 20px;
+  display: flex; /* Permite usar flexbox para centrar */
+  flex-direction: column;
+  align-items: center; /* Centra los elementos dentro del contenedor */
+  justify-content: center; /* Centra verticalmente */
+  min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+}
+
+/* Header styles */
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: #111; /* Fondo más oscuro para el encabezado */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+}
+
+/* Sobre mí - Ovalado */
+.profile .description {
+  background-color: #222; /* Fondo gris oscuro */
+  border-radius: 30px; /* Bordes redondeados */
+  padding: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Social icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Espacio entre íconos sociales */
+  margin-top: 10px;
+}
+
+.social-icon i {
+  font-size: 24px;
+  color: #f0f0f0; /* Color de íconos */
+  transition: color 0.3s ease;
+}
+
+.social-icon i:hover {
+  color: #00bfff; /* Color de hover azul cielo */
+}
+
+/* Estilos de enlaces */
+a {
+  color: #f0f0f0; /* Color de texto claro */
+  text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+  color: #00bfff; /* Cambia a azul cielo al pasar el mouse */
+}
+
+/* Skills and Projects styles */
+.skills {
+  display: flex;
+  justify-content: space-between; /* Espacio entre los dos bloques */
+  gap: 5%; /* Ajusta el porcentaje de separación */
+  padding: 20px;
+  width: 80%; /* Limita el ancho */
+}
+
+.skills ul {
+  list-style-type: none; /* Elimina los puntos de lista */
+  padding: 0;
+}
+
+.skills h3 {
+  text-align: center;
+  color: #fff; /* Color blanco para el encabezado de habilidades */
+  margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+.skills ul li {
+  margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+  text-align: left; /* Alineación a la izquierda */
+  transition: color 0.3s ease; /* Transición suave */
+}
+
+.skills ul li:hover {
+  color: #00bfff; /* Cambia el color a azul cielo cuando pasas el cursor */
+}
+
+/* Estilos de imagen */
+.profile-img {
+  width: 200px; /* Tamaño cuadrado */
+  height: 200px;
+  object-fit: cover; /* Ajusta la imagen sin distorsión */
+  border-radius: 0; /* Foto cuadrada */
+  margin: 25px auto; /* Espacio superior e inferior */
+  display: block; /* Centra la imagen en el bloque */
+  border: 3px solid #00bfff; /* Borde azul cielo */
+}
+
+/* Estilos de proyectos */
+.project {
+  background-color: #222; /* Fondo gris oscuro */
+  border-radius: 10px; /* Bordes redondeados */
+  padding: 20px;
+  margin: 20px 0; /* Espacio superior e inferior */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+}
+
+.project h3 {
+  color: #00bfff; /* Azul cielo para el título de proyectos */
+  margin-bottom: 10px; /* Espacio debajo del título */
+}
+
+.project ul {
+  list-style-type: none; /* Elimina los puntos de lista */
+  padding: 0;
+}
+
+.project ul li {
+  margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+  transition: color 0.3s ease; /* Transición suave */
+}
+
+.project ul li:hover {
+  color: #00bfff; /* Cambia el color a azul cielo cuando pasas el cursor */
+}
+
+
+
+
