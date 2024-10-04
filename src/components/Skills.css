@@ -1,28 +1,30 @@
+@import url('../variables.css');
 .skills {
-    display: flex;
-    justify-content: space-between; /* Espacio entre los dos bloques */
-    gap: 5%; /* Ajusta el porcentaje de separación */
-    padding: 20px;
-    width: 80%; /* Limita el ancho */
-  }
-  
-  .skills ul {
-    list-style-type: none; /* Elimina los puntos de lista */
-    padding: 0;
-  }
-  
-  .skills h3 {
-    text-align: center;
-    color: #fff; /* Color blanco para el encabezado de habilidades */
-    margin-bottom: 10px; /* Espacio debajo del título */
-  }
-  
-  .skills ul li {
-    margin-bottom: 10px; /* Espacio entre los elementos de la lista */
-    text-align: left; /* Alineación a la izquierda */
-    transition: color 0.3s ease; /* Transición suave */
-  }
-  
-  .skills ul li:hover {
-    color: #00bfff; /* Cambia el color a azul cielo cuando pasas el cursor */
-  }
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--main-bg-color);
+  border-radius: 10px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills h3 {
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+
+.skills ul li {
+  margin-bottom: 10px;
+  text-align: left;
+  transition: color 0.3s ease;
+}
+
+.skills ul li:hover {
+  color: var(--accent-color);
+}

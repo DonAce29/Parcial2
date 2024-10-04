@@ -1,6 +1,4 @@
-import React from 'react'
-
-
+import React from 'react';
 
 const Skills = () => {
   return (
@@ -12,7 +10,6 @@ const Skills = () => {
           <li>Premiere Pro</li>
           <li>Blender</li>
           <li>Unity</li>
-      
           <li>HTML</li>
         </ul>
       </div>
